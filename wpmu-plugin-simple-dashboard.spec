@@ -7,7 +7,7 @@ Release:	1
 License:	GPL v2+
 Group:		Applications/Publishing
 Source0:	http://downloads.wordpress.org/plugin/wpmu-simple-dashboard.zip
-# Source0-md5:	1d10be8e4dc5d5d979e28e634d6eddbf
+# Source0-md5:	a38fe435143cae5fb4cb65d5874ed247
 URL:		http://wordpress.org/extend/plugins/wpmu-simple-dashboard/
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	sed >= 4.0
