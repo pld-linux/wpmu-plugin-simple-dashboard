@@ -15,16 +15,10 @@ Requires:	wpmu >= 2.8
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		pkgdir		%{_datadir}/wpmu
-%define		wp_root		%{pkgdir}
+%define		wp_root		%{_datadir}/wpmu
 %define		wp_content	%{wp_root}/wp-content
 %define		pluginsdir	%{wp_content}/mu-plugins
 %define		_sysconfdir	/etc/webapps/wpmu
-
-%define		_svnserver	svn+ssh://svn.delfi.net
-%define		_svnroot	%{_svnserver}%{_svnprefix}
-%define		_svnprefix	/wpmu/mu-plugins/%{plugin}
-%define		_svnpath	trunk
 
 %description
 This plugin allows site admins to turn on and off the following
