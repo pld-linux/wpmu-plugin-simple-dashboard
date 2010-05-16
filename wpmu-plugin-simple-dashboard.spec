@@ -11,6 +11,7 @@ Source0:	http://downloads.wordpress.org/plugin/wpmu-simple-dashboard.zip
 URL:		http://wordpress.org/extend/plugins/wpmu-simple-dashboard/
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 Requires:	wpmu >= 2.8
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
